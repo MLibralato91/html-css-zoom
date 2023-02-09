@@ -103,9 +103,10 @@ width: 10%;
 }
 
 .icon-text i{
-    font-size: 2.5rem;
+    font-size: 2rem;
     
 }
 .icon-text{
     text-align: center;
+    padding-top: 10px;
 }
