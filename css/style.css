@@ -117,3 +117,7 @@ ul{
     padding: 5px;
     border-radius: 10px;
 }
+
+.green{
+    color: var(--text-select);
+}
