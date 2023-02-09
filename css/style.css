@@ -93,20 +93,27 @@ ul{
     list-style:none;
 }
 .space1{
-    width: 10%;
+    width: 12%;
 }
 .space2{
     width: 45%;
+
 }
 .space3{
-width: 10%;    
+    width: 8%;
+    padding-top: 20px;
 }
 
 .icon-text i{
-    font-size: 2rem;
+    font-size: 1.5rem;
     
 }
 .icon-text{
     text-align: center;
     padding-top: 10px;
+}
+.end{
+    background-color: var(--text-esc);
+    padding: 5px;
+    border-radius: 10px;
 }
