@@ -30,7 +30,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    overflow:auto;
+
 }
 /* Header */
 header{
@@ -42,8 +42,6 @@ header{
     border-radius: 5px;
     padding: 2px 5px;
     margin: 8px 5px;
-    
-    
 }
 .button a{
     color: var(--text-primary);
@@ -53,11 +51,11 @@ header{
 /* Main */
 main{
     height: calc(100% - 100px);
-    padding: 0 100px;
+    padding: 0 200px;
 }
 .card {
-    width: calc(100% / 7);
-    padding: 8px 3px;
+    width: calc((100% - 10px ) / 7 );
+    padding: 10px;
 }
 .card img{
     width: 100%;
@@ -77,15 +75,30 @@ footer{
     background-color: var(--bg-footer);
     height: 50px;
 }
+
 .footer-flex{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: start;
+    align-content: center;
 }
 .bot-flex{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
 }
+ul{
+    list-style:none;
+}
+.space1{
+    width: 15%;
+}
+.space2{
+    width: 40%;
+}
+.space3{
+width: 15%;    
+}
+
