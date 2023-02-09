@@ -5,10 +5,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --bg-body: #000000;
+    --bg-footer: #222222;
+    --text-primary: #ffffff;
+    --text-select: #4bc800;
+    --button-color: #4a4a4a;
+    --text-esc: #ff0003;
 
+}
 .wrapper{
     background-color: black;
     width: 100vw;
     height: 100vh;
+    color: var(--text-primary);
 }
 
+/* Header */
+/* Main */
+/* Footer */
+footer{
+    background-color: var(--bg-footer);
+}
