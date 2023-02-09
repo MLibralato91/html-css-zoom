@@ -45,6 +45,13 @@ header{
 /* Main */
 main{
     height: calc(100% - 100px);
+    padding: 0 100px;
+}
+.card {
+    width: calc(100% / 7);
+}
+.card img{
+    width: 100%;
 }
 /* Footer */
 footer{
