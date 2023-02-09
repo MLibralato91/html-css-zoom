@@ -20,10 +20,34 @@
     height: 100vh;
     color: var(--text-primary);
 }
-
+.d-flex{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+}
 /* Header */
+header{
+    height: 50px;
+}
+
+.button{
+    background-color: var(--button-color);
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin: 8px 5px;
+    
+    
+}
+.button a{
+    color: var(--text-primary);
+    text-decoration: none;
+}
 /* Main */
+main{
+    height: calc(100% - 100px);
+}
 /* Footer */
 footer{
     background-color: var(--bg-footer);
+    height: 50px;
 }
