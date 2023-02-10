@@ -50,13 +50,15 @@ header{
 
 /* Main */
 main{
+    width: 100%;
     height: calc(100% - 150px);
-    padding: 0 200px;
+    padding: 0 100px;
     overflow: auto;
 }
 .card {
     width: calc(100% / 7 );
-    padding: 0 10px;
+    padding: 10px;
+    min-width: 200px;
 }
 .card img{
     width: 100%;
@@ -102,7 +104,7 @@ ul{
 }
 .space3{
     width: 8%;
-    padding-top: 20px;
+
 }
 
 .icon-text i{
@@ -111,7 +113,7 @@ ul{
 }
 .icon-text{
     text-align: center;
-    padding-top: 10px;
+
 }
 .end{
     background-color: var(--text-esc);
@@ -121,4 +123,10 @@ ul{
 
 .green{
     color: var(--text-select);
+}
+.center-flex{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items:stretch;
+    justify-content: center;
 }
